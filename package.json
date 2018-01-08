@@ -1,0 +1,19 @@
+{
+  "name": "kodilla-13.9",
+  "version": "1.0.0",
+  "description": "kodilla-13.9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "13.9"
+  ],
+  "author": "Tomasz Pajor",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "formidable": "^1.1.1"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Website</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1 class='text-center mt-5'>Wgraj plik</h1>
+		<form class='text-center col-5 mx-auto' action="/upload" enctype="multipart/form-data" method="post">
+			<div class='form-group'>
+				<label class='mt-2'>Tytuł pliku</label>
+				<input class="form-control" type="text" name="title">
+			</div>
+			<div class='form-group'>
+				<label>Plik</label>
+				<input class="btn d-block mx-auto" type="file" name="upload" multiple="multiple"><br>
+			</div>
+            <input class="btn btn-primary" type="submit" value="Wyślij">
+        </form>
+	</body>
+</html>
